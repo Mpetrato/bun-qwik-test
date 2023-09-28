@@ -5,6 +5,7 @@ import {
   ServiceWorkerRegister,
 } from "@builder.io/qwik-city";
 import { RouterHead } from "./components/router-head/router-head";
+import { Analytics } from '@vercel/analytics/react';
 
 import "./global.css";
 
@@ -26,6 +27,7 @@ export default component$(() => {
       </head>
       <body lang="en">
         <RouterOutlet />
+        <Analytics />
       </body>
     </QwikCityProvider>
   );

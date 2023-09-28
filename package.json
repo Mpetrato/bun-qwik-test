@@ -31,6 +31,7 @@
     "@types/node": "^20.4.5",
     "@typescript-eslint/eslint-plugin": "6.2.0",
     "@typescript-eslint/parser": "6.2.0",
+    "@vercel/analytics": "^1.0.2",
     "eslint": "8.45.0",
     "eslint-plugin-qwik": "^1.2.12",
     "prettier": "3.0.0",
